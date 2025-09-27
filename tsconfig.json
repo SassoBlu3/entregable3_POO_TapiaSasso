@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+  //como compartie mi proyecto
+    "module": "NodeNext",
+    "moduleResolution":"NodeNext",
+  //version de java que estoy utilizando
+    "target": "esnext",
+    "sourceMap": true,
+   //debo crear una carpeta que se llame dist donde vamos a incluir todo el codgo java script 
+    "outDir": "dist",
+  },
+  "include": ["src/**/*"],
+}
