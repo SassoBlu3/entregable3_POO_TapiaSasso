@@ -1,0 +1,5 @@
+//pensar en métodos comunes a discoduro  y cd, y pensar propiedades comunes tambien
+//crear las interfaces y las clases base con los metodos y propiedades para crear interfaces y clasesbase respetivamente
+//la interfaz almacenamiento puede guardar los metodos, leer, mostrar informacion, formatear
+//en clases bases puede crearse una clase base de disco que guarde informacion de propiedades comunes a disco y cd para no repetir codigo en cada de las clase madre
+No olvidad hacer git add . / git commit - "nombre de los cambios" / git push (para subir)
