@@ -35,7 +35,7 @@ export abstract class DiscoBase implements IDiscoGira, IAlmacenarDatos {
         const usado = this.contenido.length ? this.contenido.join(", ") : "(vacío)";
         return `Nombre: ${this.nombre} | Tipo: ${this.tipo} | Capacidad: ${this.capacidadGb} Gb | Contenido: ${usado}`;
     }
-
+//clases abstract para definir metodos que cada clase hija definirá a su manera: cd->laser, disco dura->magnetico
     abstract almacenarDatos(dato: string): void;
     abstract leerDatos(): string[];
 }
