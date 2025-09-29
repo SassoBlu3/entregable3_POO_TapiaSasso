@@ -1,5 +1,5 @@
-import { Cd } from "./clasesBase/cd.js";
-import { DiscoDuro } from "./clasesBase/discoDuro.js";
+import { Cd } from "./clasesBase/Cd.js";
+import { DiscoDuro } from "./clasesBase/DiscoDuro.js";
 
 const cd = new Cd("CD Música", 4.7);
 cd.girarDisco();

@@ -1,5 +1,5 @@
-import { IAlmacenarDatos } from "../interfaces/ialmacenarDatos.js";
-import { IDiscoGira } from "../interfaces/iDiscoGira.js";
+import { IAlmacenarDatos } from "../interfaces/IAlmacenarDatos.js";
+import { IDiscoGira } from "../interfaces/IDiscoGira.js";
 
 export abstract class DiscoBase implements IDiscoGira, IAlmacenarDatos {
     nombre: string;
