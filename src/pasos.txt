@@ -3,3 +3,7 @@
 //la interfaz almacenamiento puede guardar los metodos, leer, mostrar informacion, formatear
 //en clases bases puede crearse una clase base de disco que guarde informacion de propiedades comunes a disco y cd para no repetir codigo en cada de las clase madre
 No olvidad hacer git add . / git commit - "nombre de los cambios" / git push (para subir)
+No olvidar que en las interfaces no se especifica que hara el metodo,solo nombre, que recibe ej string, que devuleve ej void
+Preparar las clasesbase
+Importar de las interfases (no olvidar formula import { nombre interface, } from "../direccion archivo intereface";) en discoBase y agregar atributos comunes de todos los discoBase
+agregar metodos comunes 
